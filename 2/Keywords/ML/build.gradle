@@ -1,0 +1,38 @@
+apply plugin: 'java'
+
+group = 'org.trofiv'
+compileJava.options.encoding = 'UTF-8'
+//noinspection GroovyUnusedAssignment
+sourceCompatibility = 1.8
+//noinspection GroovyUnusedAssignment
+targetCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+jar {
+    baseName = 'MLProcessor'
+    version = '1.0'
+    manifest {
+        attributes 'Main-Class': 'org.trofiv.MLProcessor'
+    }
+    from {
+        configurations.compile.collect { //noinspection GroovyConditional
+            it.directory ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    compile(
+            [group: 'commons-io', name: 'commons-io', version: '2.4'],
+            [group: 'org.jscience', name: 'jscience', version: '4.3.1'],
+            [group: 'org.apache.commons', name: 'commons-csv', version: '1.2'],
+            [group: 'org.openl', name: 'org.openl.j.science', version: '5.7.5'],
+            [group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'],
+            [group: 'org.apache.commons', name: 'commons-math3', version: '3.5'],
+            [group: 'nz.ac.waikato.cms.weka', name: 'weka-stable', version: '3.6.13'],
+    )
+}

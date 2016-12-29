@@ -1,0 +1,2 @@
+#!/bin/bash
+cd ML && java -jar build/libs/MLProcessor-1.0.jar && cd .. && echo && echo && echo FINISHED && echo && echo && echo Dataset classification complete! Check .tsv files at keyword directories.

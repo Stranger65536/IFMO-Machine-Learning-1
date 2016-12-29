@@ -1,0 +1,180 @@
+
+
+Classificators sorted descending by micro f-measure mean:
+LibSVM                   :  0,84
+Grading                  :  0,84
+Stacking                 :  0,84
+RacedIncrementalLogitBoost:  0,84
+ZeroR                    :  0,84
+MultiScheme              :  0,84
+StackingC                :  0,84
+Vote                     :  0,84
+CVParameterSelection     :  0,84
+ConjunctiveRule          :  0,82
+AdaBoostM1               :  0,81
+DecisionStump            :  0,81
+Dagging                  :  0,81
+MultiBoostAB             :  0,80
+FilteredClassifier       :  0,79
+DecisionTable            :  0,78
+Bagging                  :  0,78
+DTNB                     :  0,77
+NBTree                   :  0,77
+OneR                     :  0,77
+LADTree                  :  0,77
+END                      :  0,76
+BFTree                   :  0,76
+AttributeSelectedClassifier:  0,76
+JRip                     :  0,75
+ClassificationViaRegression:  0,75
+LogitBoost               :  0,75
+J48                      :  0,75
+RotationForest           :  0,75
+REPTree                  :  0,75
+Decorate                 :  0,75
+SMO                      :  0,75
+RandomSubSpace           :  0,74
+Ridor                    :  0,74
+RandomCommittee          :  0,74
+ND                       :  0,74
+LWL                      :  0,74
+ClassBalancedND          :  0,74
+PART                     :  0,74
+J48graft                 :  0,73
+MultilayerPerceptron     :  0,73
+DataNearBalancedND       :  0,73
+KStar                    :  0,73
+SimpleLogistic           :  0,73
+NNge                     :  0,72
+LMT                      :  0,72
+FT                       :  0,71
+IB1                      :  0,71
+IBk                      :  0,71
+RandomTree               :  0,71
+MultiClassClassifier     :  0,71
+Logistic                 :  0,70
+ClassificationViaClustering:  0,69
+RBFNetwork               :  0,69
+NaiveBayes               :  0,64
+HyperPipes               :  0,62
+VFI                      :  0,55
+
+
+Classificators sorted descending by macro f-measure mean:
+LogitBoost               :  2,23
+RandomCommittee          :  2,18
+IB1                      :  2,15
+IBk                      :  2,15
+Decorate                 :  2,14
+NNge                     :  2,13
+RotationForest           :  2,13
+LADTree                  :  2,12
+PART                     :  2,10
+FT                       :  2,08
+MultilayerPerceptron     :  2,08
+Ridor                    :  2,08
+Logistic                 :  2,08
+J48                      :  2,07
+J48graft                 :  2,07
+NaiveBayes               :  2,06
+KStar                    :  2,06
+END                      :  2,05
+RandomTree               :  2,05
+Bagging                  :  2,04
+LMT                      :  2,03
+BFTree                   :  2,02
+ClassificationViaRegression:  2,01
+DataNearBalancedND       :  2,00
+ClassBalancedND          :  1,96
+VFI                      :  1,93
+AttributeSelectedClassifier:  1,93
+JRip                     :  1,91
+ND                       :  1,90
+SimpleLogistic           :  1,87
+MultiClassClassifier     :  1,86
+NBTree                   :  1,86
+RBFNetwork               :  1,78
+REPTree                  :  1,72
+OneR                     :  1,55
+DTNB                     :  1,42
+DecisionTable            :  1,38
+FilteredClassifier       :  1,35
+LWL                      :  1,32
+ClassificationViaClustering:  1,29
+RandomSubSpace           :  1,20
+HyperPipes               :  1,02
+MultiBoostAB             :  1,02
+AdaBoostM1               :  1,01
+DecisionStump            :  1,01
+ConjunctiveRule          :  0,93
+SMO                      :  0,90
+Dagging                  :  0,87
+LibSVM                   :  0,84
+Grading                  :  0,84
+Stacking                 :  0,84
+RacedIncrementalLogitBoost:  0,84
+ZeroR                    :  0,84
+MultiScheme              :  0,84
+StackingC                :  0,84
+Vote                     :  0,84
+CVParameterSelection     :  0,84
+
+
+Classificators sorted descending by correctly predicted percent mean:
+LogitBoost               : 78,57
+LADTree                  : 78,22
+END                      : 78,20
+Bagging                  : 78,17
+RandomCommittee          : 77,99
+ClassificationViaRegression: 77,84
+RotationForest           : 77,62
+JRip                     : 77,61
+Decorate                 : 77,37
+BFTree                   : 77,32
+AttributeSelectedClassifier: 77,20
+NNge                     : 77,16
+Ridor                    : 76,81
+J48graft                 : 76,72
+J48                      : 76,70
+PART                     : 76,62
+ND                       : 76,57
+NBTree                   : 76,41
+REPTree                  : 76,06
+DataNearBalancedND       : 76,02
+ClassBalancedND          : 75,99
+MultilayerPerceptron     : 75,27
+LMT                      : 75,21
+KStar                    : 74,97
+SimpleLogistic           : 74,78
+Logistic                 : 74,78
+IB1                      : 74,71
+IBk                      : 74,71
+RandomSubSpace           : 74,66
+OneR                     : 74,58
+FT                       : 74,55
+MultiClassClassifier     : 74,41
+RandomTree               : 74,30
+DecisionTable            : 74,29
+DTNB                     : 73,99
+FilteredClassifier       : 73,95
+Dagging                  : 72,98
+HyperPipes               : 72,97
+LibSVM                   : 72,97
+Grading                  : 72,97
+Stacking                 : 72,97
+RacedIncrementalLogitBoost: 72,97
+ZeroR                    : 72,97
+MultiScheme              : 72,97
+StackingC                : 72,97
+Vote                     : 72,97
+CVParameterSelection     : 72,97
+LWL                      : 72,96
+SMO                      : 72,87
+RBFNetwork               : 72,27
+ConjunctiveRule          : 72,26
+MultiBoostAB             : 71,97
+AdaBoostM1               : 71,73
+DecisionStump            : 71,73
+NaiveBayes               : 67,74
+ClassificationViaClustering: 63,58
+VFI                      : 59,62
